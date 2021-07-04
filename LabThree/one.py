@@ -2,8 +2,8 @@
  Write a Python function to find the Max of three numbers
 '''
 def max():
-    a= int(input("enter number"))
-    b= int(input("enter number"))
+    a = int(input("enter number"))
+    b = int(input("enter number"))
     c= int(input("enter number"))
     if a>b and a>c:
         print(f"the max number is {a}")
