@@ -9,7 +9,7 @@ def fizz_buzz(a):
         return "FizzBuzz"
     elif a%5==0:
         return "Buzz"
-    elif a%3==0:
+    elif a%3 ==0:
         return "Fizz"
     else:
         return "a"
