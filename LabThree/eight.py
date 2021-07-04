@@ -7,7 +7,7 @@ def prim(num):
     if num % i==0:
       count=count+1
  if count>=1:
-     print('The number is not a prime no')
+     print('The number is not a prime number')
  else:
      print('The number is a prime number')
 num=int(input('Enter a number: '))
