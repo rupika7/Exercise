@@ -9,5 +9,5 @@ def myFunc(limit):
         if (i % 3 == 0 or i % 5 == 0):
             sum = sum + i
     return sum
-a=int(input("enter the limit: "))
+a=int(input("Enter the limit: "))
 print(myFunc(a))
