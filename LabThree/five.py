@@ -9,6 +9,6 @@
 def show_stars():
     for row in range(5):
         for col in range(row + 1):
-            print('*', end='')
+            print('*', end=' ')
         print()
 show_stars()
