@@ -10,5 +10,5 @@ def showNumbers(limit):
             print(i, "EVEN")
         else:
             print(i, "ODD")
-a=int(input("enter a number: "))
+a=int(input("enter a number:"))
 print(showNumbers(a))
