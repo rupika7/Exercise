@@ -17,7 +17,7 @@
            Car had already stopped!!
         > quit
 '''
-command = " "
+command = "  "
 started = False
 #while command != "quit"
 while True:
