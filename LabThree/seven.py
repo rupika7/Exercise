@@ -11,7 +11,6 @@ def case():
             uppers += 1
     print('Lowercase characters:', lowers)
     print('Lowercase characters:', uppers)
-
 string=input("enter a string: ")
 case()
 
