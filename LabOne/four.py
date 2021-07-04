@@ -7,6 +7,6 @@ For example, if N = 150, then 150 minutes have passed since midnight - i.e. now 
 N = int(input("enter the number of minutes passed since midnight"))
 hours = N//60
 minutes = N%60
-print(f"the hours is {hours}")
+print(f"the hours is {hours} ")
 print(f"the minutes is {minutes}")
 print(f"now is {hours} : {minutes}")
