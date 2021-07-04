@@ -1,7 +1,7 @@
 '''
 Write a program to find the factorial of a number using functions.
 '''
-num = int(input("Enter a number: "))
+num = int(input("enter a number: "))
 factorial = 1
 if num < 0:
    print(" Factorial does not exist for negative numbers")
