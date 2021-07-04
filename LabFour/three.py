@@ -10,6 +10,6 @@ guess= int(input("enter a guess: "))
 i = 1
 while random_num!=guess:
     guess=int(input("guess again: "))
-    i=i+1
+    i= i+1
 print("well guessed!")
 
