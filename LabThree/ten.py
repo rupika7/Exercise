@@ -4,5 +4,5 @@ Accept string from the user and display only those characters which are present 
 def index(str):
     modified_string = str[0::2]
     print(modified_string)
-a = input("Enter a string: ")
+a = input("Enter a string:")
 index(a)
