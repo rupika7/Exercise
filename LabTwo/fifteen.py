@@ -15,21 +15,15 @@ a=2
 b=3
 c=4
 d=3
-l=bool(a!=b)
-m=bool(b==d)
-n=bool(a!=c)
-o=a+=c
-q=bool(b>a)
-r=bool(a<d)
-s=bool(a<d)
-t=bool(b-a==c-d)
-u=bool(b>=d)
-print(l)
-print(n)
-
-print(q)
-print(r)
-print(s)
-print(t)
-print(u)
-
+print(a==b)
+print(a!=d)
+print(b==d)
+print(a!=c)
+print(b>a)
+print(a<d)
+print((b-a)==(c-b))
+print(b>=d)
+a+= c
+print(a)
+b /= d
+print(b)

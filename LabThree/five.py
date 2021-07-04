@@ -6,9 +6,9 @@
  ****
  *****
 '''
-def show_stars(rows):
-    rows = 5
-    for i in range(0, rows):
-        for j in range(0, i + 1):
-            print("*", end=' ')
-print("\r")
+def show_stars():
+    for row in range(5):
+        for col in range(row + 1):
+            print('*', end='')
+        print()
+show_stars()
