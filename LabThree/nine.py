@@ -9,6 +9,6 @@ for i in string:
 print("String in reverse Order :  ", str1)
 
 if(string == str1):
-   print("This is a Palindrome String")
+   print("This is a Palindrome string")
 else:
    print("This is Not a Palindrome String")
